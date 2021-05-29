@@ -1,0 +1,29 @@
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: chocolate;
+
+}
+th{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: green;
+
+}
+td{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: fit-content;
+}
+li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: crimson;
+}
+body{
+    background-color: gainsboro;
+
+}
+table{
+
+    border: maroon;
+    border-style: dotted;
+    
+}

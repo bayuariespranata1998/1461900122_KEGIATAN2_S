@@ -1,6 +1,8 @@
 <?php
-
+use App\Http\Controllers\Controller;
+use App\Http\Controllers\crud;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +16,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+Route::get('/tampil',[crud::class,'index']);
+Route::get('/SELECTLIKE',[crud::class,'SELECTLIKE']);
+Route::get('/Join',[crud::class,'Join']);
+Route::get('/Last',[crud::class,'Last']);
